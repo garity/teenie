@@ -8,8 +8,12 @@ export default () => {
 		<div>
 		 <NavBar/>
   		<div id="container" style={{'backgroundImage': 'url(images/backgroundimage.jpg)', backgroundRepeat: 'repeat'}}>
-  			<img src="/images/BannerImage.jpg" style={{'display': 'block', 'margin': 'auto', 'height': '50vh', 'width':'auto'}}/>
-			<ProductNavigation />
+  			<div className='heroimage'>
+  				<img src="/images/BannerImage.jpg" style={{'display': 'block', 'margin': 'auto', 'height': '50vh', 'width':'auto'}}/>
+  			</div>
+  			<div className='productsnav'>
+				<ProductNavigation />
+			</div>
   		</div>
 		</div>
  )
